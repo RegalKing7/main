@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Blog</title>
+    <style>
+        /* Reset some default styles */
+        body,
+        figure,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            position: relative;
+        }
+
+        nav ul li a:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: #fff;
+            bottom: -4px;
+            left: 0;
+            transition: width 0.5s ease-in-out;
+        }
+
+        nav ul li a:hover:before {
+            width: 100%;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgb(17, 17, 17);
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p.meta {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .tags {
+            margin-top: 10px;
+        }
+
+        .tags a {
+            display: inline-block;
+            padding: 4px 8px;
+            background-color: #f2f2f2;
+            color: #333;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+
+        .comments {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .comment {
+            margin-bottom: 10px;
+        }
+
+        .comment p {
+            margin-bottom: 5px;
+        }
+
+        .comment .author {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>My Blogs</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+    </center>
+
+    <section class="content">
+        <article>
+            <h2>My Portfolio Website: Showcasing My Creativity</h2>
+            <p class="meta">Posted on June 3, 2023 | Tags: Portfolio Showcase, Personal Branding, Web Design, Creative Journey, Online Portfolio, Web Development</p>
+            <p><h4>Introduction: </h4>
+                Sharing my completed portfolio—its journey, design, and features.  <br>
+                
+                <h4>Journey to Reality:</h4>
+                From idea to creation, driven by standing out and growth. <br>
+                
+                <h4>Design Essence:</h4>
+                Blending aesthetics and function for a compelling user experience. <br>
+                
+                <h4>Diverse Showcases:</h4>
+                Projects spanning design, development, writing, and photography. <br>
+            
+                <h4>Interactive Touch:</h4>
+                Enhancing engagement through interactive elements. <br>
+                
+                <h4>Tech Insights:</h4>
+                Tech used, challenges overcome. <br>
+                
+                <h4>Reflecting Success:</h4>
+                Highlighting growth and potential. <br>
+                
+                <h4>Inspiring Others:</h4>
+                Motivating creative journeys. <br>
+                
+                <h4>Closing:</h4>
+                Ready to share, connect, and inspire.</p>
+            <div class="comments">
+                <div class="comment"></div>
+                <p class="author"><b>Name</b></p>
+                <p>Masood Tariq</p>
+            </div>
+            </div>
+        </article>
+        <hr>
+        <!-- <article>
+            <h2>Article Title 2</h2>
+            <p class="meta">Posted on June 3, 2023 | Category: Category 2 | Tags: Tag 1, Tag 2, Tag 3</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, fugiat? Sapiente ipsam dicta,
+                adipisci possimus totam molestias eius at cum sequi, reiciendis, temporibus pariatur omnis? Eum quod
+                quis libero tempore ratione eveniet nulla explicabo temporibus sequi sapiente?</p>
+            <div class="tags">
+                <a href="#">Tag 1</a>
+                <a href="#">Tag 2</a>
+                <a href="#">Tag 3</a>
+            </div>
+            <div class="comments">
+                <div class="comment"></div>
+                <p class="author"><b>Name</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="comment">
+                <p class="author"><b>Name</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            </div>
+        </article> -->
+    </section>
+</body>
+
+</html>
